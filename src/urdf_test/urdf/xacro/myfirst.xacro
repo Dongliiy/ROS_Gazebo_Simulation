@@ -1,0 +1,11 @@
+<robot name="mycar" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    <xacro:property name="xxx" value="yyy" />
+    <my type="${xxx}" />
+    <my type="${2 + 1}" />
+
+    <xacro:macro name="sum" params="num1 num2">
+        <out value="${num1 + num2}" />
+    </xacro:macro>
+
+    <xacro:sum num1="1" num2="2" />
+</robot>

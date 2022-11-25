@@ -1,0 +1,2 @@
+mygazebo:nav_demo:urdf_test
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/admin233/demo06_ws/devel -DCMAKE_INSTALL_PREFIX=/home/admin233/demo06_ws/install -G Unix Makefiles

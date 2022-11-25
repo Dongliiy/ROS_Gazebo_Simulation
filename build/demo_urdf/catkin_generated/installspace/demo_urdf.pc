@@ -1,0 +1,8 @@
+prefix=/home/admin233/demo06_ws/install
+
+Name: demo_urdf
+Description: Description of demo_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
